@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Listas</title>
+    <style>
+        /* Estilos para centralizar a imagem */
+        .container-imagem {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente (se houver altura definida no body ou container) */
+            margin-bottom: 20px; /* Adiciona um espaçamento abaixo da imagem */
+        }
+
+        .container-imagem img {
+            max-width: 80%; /* Garante que a imagem não seja maior que o container */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; /* Remove espaços extras abaixo da imagem */
+        }
+
+        body {
+            text-align: center; /* Centraliza o texto do cabeçalho e das listas */
+        }
+
+        ul, ol {
+            display: inline-block; /* Permite que as listas sejam centralizadas */
+            text-align: left; /* Alinha o texto dos itens da lista à esquerda */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-imagem">
+        <img src="https://img.freepik.com/fotos-gratis/proprietario-da-empresa-trabalhando-em-sua-estrategia_23-2149241288.jpg?t=st=1744241021~exp=1744244621~hmac=92c3fc65a1cb3d35587252c25734ed6c0b65d32e289a893f673582a68930544e&w=740" alt="Soft Skills em Computação">
+    </div>
+
+    <h1>Lista Comportamento</h1>
+
+    <ul>
+        <li>Comunicação Clara e Eficaz: A habilidade de transmitir informações técnicas e não técnicas de forma clara, concisa e adaptada ao público (colegas de equipe, clientes, usuários). Isso inclui a comunicação verbal (reuniões, apresentações), escrita (documentação, e-mails) e visual (diagramas, fluxogramas).</li>
+        <li>Escuta Ativa: A capacidade de ouvir atentamente, compreender as necessidades e preocupações dos outros, e fornecer feedback construtivo.</li>
+        <li>Habilidade de Apresentação: A aptidão para apresentar ideias, projetos e resultados de forma envolvente e persuasiva.</li>
+        <li>Colaboração: A capacidade de trabalhar efetivamente com outros, compartilhar conhecimentos, e contribuir para objetivos comuns. Isso envolve respeito pelas diferentes opiniões e habilidades.</li>
+    </ul>
+
+    <br> <ol>
+        <li>Empatia: A habilidade de compreender e compartilhar os sentimentos de outros membros da equipe, promovendo um ambiente de trabalho positivo e de apoio.</li>
+        <li>Resolução de Conflitos: A capacidade de identificar, abordar e resolver desentendimentos de forma construtiva e colaborativa.</li>
+        <li>Análise e Avaliação: A habilidade de analisar informações complexas, identificar problemas subjacentes e avaliar diferentes soluções.</li>
+        <li>Pensamento Lógico: A capacidade de raciocinar de forma estruturada e sequencial para identificar causas e efeitos e propor soluções eficazes.</li>
+    </ol>
+
+    <br> <ol>
+        <li>Aprendizado Contínuo e Curiosidade:
+            <ul>
+                <li>1.1 Mentalidade de Crescimento (Growth Mindset): A crença de que habilidades e inteligência podem ser desenvolvidas através de dedicação e trabalho duro, buscando sempre aprender e melhorar.</li>
+                <li>1.2 Curiosidade Intelectual: O desejo de explorar novas tecnologias, conceitos e abordagens, mantendo-se atualizado em um campo em constante evolução.</li>
+            </ul>
+        </li>
+        <li>Influência e Persuasão: A habilidade de influenciar positivamente os outros e persuadi-los a adotar ideias ou abordagens.</li>
+        <li>Mentoria e Desenvolvimento de Outros: A capacidade de guiar e apoiar o desenvolvimento de habilidades de outros membros da equipe.</li>
+    </ol>
+
+</body>
+</html>
