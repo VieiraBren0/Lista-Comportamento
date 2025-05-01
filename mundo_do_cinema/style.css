@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/183381310/pt/foto/c%C3%B3digo-html.jpg?s=1024x1024&w=is&k=20&c=VTfvaCiPfihdI2SqoMEGin9FE3JhMBx6CSfiapiQtUQ=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#paragrafo1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-left: 4px solid #f39c12;
+}
+
+#paragrafo2 {
+    color: #ffcc00;
+    font-style: italic;
+}
+
+#paragrafo3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#paragrafo4 {
+    font-weight: bold;
+    color: #00ffff;
+}
+
+#paragrafo5 {
+    border: 2px dashed #ffffff;
+    padding: 10px;
+}
+
+#paragrafo6 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+}
